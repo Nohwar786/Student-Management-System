@@ -53,21 +53,40 @@ The application connects to MySQL using JDBC.
 ## 6. Project Structure
 
 ```text
-StudentManagementSystem
+StudentManagementSystem/
 │
-├── .vscode
+├── .vscode/
 │   └── settings.json
 │
-├── lib
+├── lib/
 │   └── mysql-connector-j-26.7.0.jar
 │
-├── src
+├── src/
 │   ├── DbConnection.java
 │   ├── Main.java
 │   ├── Student.java
 │   └── StudentDAO.java
 │
-├── database
-├── screenshots
+├── database/
+├── screenshots/
 ├── README.md
 └── Project_Report.pdf
+```
+
+## 7.  Application Screenshots
+
+![Main Menu](screenshots/01_main_menu.png)
+
+![Add Student](screenshots/02_add_student.png)
+
+![View Student](screenshots/03_View_student.png)
+
+![Search Student](screenshots/04_search_student.png)
+
+![Update Student](screenshots/05_update_student.png)
+
+![Delete Student](screenshots/06_delete_student.png)
+
+![Exit](screenshots/07_exit.png)
+
+![MySQL Database](screenshots/08_mysql_database.png)
